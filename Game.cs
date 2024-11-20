@@ -11,15 +11,15 @@ public class Game
     
     public int ReleaseYear { get; set; } // Chiqish yili
     
-    public string Platform { get; set; } // Platforma (PC, PS5, Xbox va boshqalar)
+    public string Platform { get; set; } 
     
-    public double Rating { get; set; } // Reyting (masalan, 8.5/10)
+    public double Rating { get; set; } 
     
-    public bool IsMultiplayer { get; set; } // Multiplayer rejim mavjudmi
+    public bool IsMultiplayer { get; set; } 
     
-    public double Price { get; set; } // Narx (masalan, dollar)
+    public double Price { get; set; }
     
-    public int DownloadSize { get; set; } // Yuklab olish hajmi (GB)
+    public int DownloadSize { get; set; } 
 
     public void DisplayInfo()
     {
